@@ -47,7 +47,6 @@ android {
 }
 
 dependencies {
-
     // Coil
     implementation(libs.coil)
 
@@ -78,7 +77,6 @@ dependencies {
 
     // Okhttp
     implementation(libs.okhttp)
-
 
     // Retrofit
     implementation(libs.retrofit)
