@@ -8,20 +8,21 @@ appcompat = "1.6.1"
 # C
 coil = "2.6.0"
 compose = "1.6.7"
+compose-material = "1.2.1"
 core-ktx = "1.13.1"
 
 # E
 espresso-core = "3.5.1"
 
 # H
-hilt = "2.44"
+hilt = "2.48"
 
 # J
 junit = "4.13.2"
 
 # K
-ksp = "2.0.0-1.0.21"
-kotlin = "1.9.22"
+ksp = "1.9.24-1.0.20"
+kotlin = "1.9.24"
 
 # M
 material = "1.12.0"
@@ -41,17 +42,18 @@ viewmodel-compose = "2.6.1"
 
 [libraries]
 # A
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activity-compose" }
 androidx-test-ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "androidx-test-ext-junit" }
 appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
 
 # C
 coil = { group = "io.coil-kt", name = "coil", version.ref = "coil" }
 compose-ui = { group = "androidx.compose.ui", name = "ui", version.ref = "compose" }
-compose-runtime = { group = "ndroidx.compose.runtime", name = "runtime", version.ref = "compose" }
+compose-runtime = { group = "androidx.compose.runtime", name = "runtime", version.ref = "compose" }
 compose-foundation = { group = "androidx.compose.foundation", name = "foundation", version.ref = "compose" }
 compose-animation = { group = "androidx.compose.animation", name = "animation", version.ref = "compose" }
 compose-material = { group = "androidx.compose.material", name = "material", version.ref = "compose" }
-compose-material3 = { group = "androidx.compose.material3", name = "material3", version.ref = "compose" }
+compose-material3 = { group = "androidx.compose.material3", name = "material3", version.ref = "compose-material" }
 core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "core-ktx" }
 
 # E
@@ -60,7 +62,7 @@ espresso-core = { group = "androidx.test.espresso", name = "espresso-core", vers
 # H
 hilt-android = { group = "com.google.dagger", name = "hilt-android", version.ref = "hilt" }
 hilt-compiler = { group = "com.google.dagger", name = "hilt-compiler", version.ref = "hilt" }
-hilt-android-compile = { group = "com.google.dagger", name = "hilt-android-compile", version.ref = "hilt" }
+hilt-android-compiler = { group = "com.google.dagger", name = "hilt-android-compiler", version.ref = "hilt" }
 
 # J
 junit = { group = "junit", name = "junit", version.ref = "junit" }

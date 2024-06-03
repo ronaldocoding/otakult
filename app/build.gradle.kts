@@ -59,6 +59,7 @@ dependencies {
     androidTestImplementation(libs.espresso.core)
 
     // Compose
+    implementation(libs.androidx.activity.compose)
     implementation(libs.compose.ui)
     implementation(libs.compose.runtime)
     implementation(libs.compose.foundation)
@@ -68,7 +69,7 @@ dependencies {
 
     // Hilt
     implementation(libs.hilt.android)
-    ksp(libs.hilt.android.compile)
+    ksp(libs.hilt.android.compiler)
     ksp(libs.hilt.compiler)
 
     // Mockk
